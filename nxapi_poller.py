@@ -9,9 +9,9 @@ import sys
 """
 Modify these please
 """
-switchuser='admin'
-switchpassword='Cisc0123'
-url='http://10.105.237.102//ins'
+switchuser='user'
+switchpassword='Abc0123'
+url='http://<mgmt_ip_of_the_switch>//ins'
 payload={
 		"ins_api": {
 				"version": "1.2",
@@ -25,7 +25,7 @@ payload={
 
 
 #first run the command, keep getting all the mgmt ip interfaces.
-ip = "10.105.237.102"
+ip = <mgmt_ip_of_switch>
 d = [] 
 e = {} 
 i = 0
